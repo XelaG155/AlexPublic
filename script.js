@@ -158,10 +158,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!managementCtx) return;
 
         const labels = {
-            de: ['Leadership', 'Projektmanagement', 'Budget Management', 'Team Building', 'Strategisches Denken', 'Change Management'],
-            en: ['Leadership', 'Project Management', 'Budget Management', 'Team Building', 'Strategic Thinking', 'Change Management'],
-            fr: ['Leadership', 'Gestion de Projet', 'Gestion Budgétaire', 'Team Building', 'Pensée Stratégique', 'Gestion du Changement'],
-            es: ['Liderazgo', 'Gestión de Proyectos', 'Gestión Presupuestaria', 'Team Building', 'Pensamiento Estratégico', 'Gestión del Cambio']
+            de: ['Leadership', 'Projektmanagement', 'Executive Training', 'Team Building', 'Strategisches Denken', 'Change Management'],
+            en: ['Leadership', 'Project Management', 'Executive Training', 'Team Building', 'Strategic Thinking', 'Change Management'],
+            fr: ['Leadership', 'Gestion de Projet', 'Formation Executive', 'Team Building', 'Pensée Stratégique', 'Gestion du Changement'],
+            es: ['Liderazgo', 'Gestión de Proyectos', 'Formación Ejecutiva', 'Team Building', 'Pensamiento Estratégico', 'Gestión del Cambio']
         };
 
         new Chart(managementCtx, {
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
             data: {
                 labels: labels[lang],
                 datasets: [{
-                    data: [98, 95, 92, 96, 94, 93],
+                    data: [98, 95, 97, 96, 94, 93],
                     backgroundColor: [
                         'rgba(37, 99, 235, 0.7)',
                         'rgba(124, 58, 237, 0.7)',
